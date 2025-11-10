@@ -1,4 +1,6 @@
 # 🚗 Car Sales Dashboard | Power BI Project
+
+
 ## 📊 Overview
 This project presents an **interactive Car Sales Dashboard** built in **Power BI** to analyze car sales performance across different regions, brands, and time periods.  
 It provides a complete picture of **sales trends, car model performance, and dealership insights**, empowering data-driven decisions.
@@ -31,7 +33,7 @@ The dashboard answers key business questions such as:
 ---
 
 ## 🧮 DAX Measures
-Some of the key **DAX formulas** used in the project:
+Some of the key DAX formulas used in the project:
 
 ```DAX
 -- Year-to-Date (YTD) Total Sales
@@ -47,33 +49,32 @@ Total Cars Sold = COUNTROWS(CarSales)
 YTD Avg Sales = AVERAGEX(VALUES(CarSales[Dealer_Name]), [YTD Total Sales])
 
 -- Sales Growth %
-Sales Growth % = DIVIDE(([YTD Total Sales] - [MTD Total Sales]), [MTD Total Sales])
+Sales Growth % = DIVIDE(([YTD Total Sales] - [MTD Total Sales]), [YTD Total Sales])
+```
+
+
+## 🚀 How to Use
+1. Download the `.pbix` file from this repository.  
+2. Open it in **Power BI Desktop**.  
+3. Refresh the data connection if needed.  
+4. Interact with filters and visuals to explore insights.
+
 ---
 
-*** 🚀 How to Use
+## 👨‍💻 Author
+**Ravi Dhakad**  
+📧 raviiidhakad@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/ravi-dhakad-9b3353245/)  
+💻 [GitHub](https://github.com/raviiidhakad)
 
-Download the .pbix file from this repository.
+---
 
-Open it in Power BI Desktop.
-
-Refresh the data connection if needed.
-
-Interact with filters and visuals to explore insights.
-
-*** 👨‍💻 Author
-Ravi Dhakad
-📧 raviiidhakad@gmail.com
-
-🔗 LinkedIn
-
-💻 GitHub
-
-🏁 Conclusion
-
-💡 This Power BI dashboard transforms raw car sales data into clear, actionable business insights, enabling data-driven decision-making.
+## 🏁 Conclusion
+💡 This Power BI dashboard transforms raw car sales data into clear, actionable business insights, enabling data-driven decision-making.  
 🚀 It showcases my ability to design, model, and visualize data effectively — turning analytics into impact.
 
-⭐ Acknowledgment
+---
 
-If you found this project useful, please ⭐ the repository and share your feedback.
+### ⭐ Acknowledgment
+If you found this project useful, please ⭐ the repository and share your feedback.  
 It motivates me to keep creating insightful data projects!
