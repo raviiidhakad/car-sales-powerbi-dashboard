@@ -50,15 +50,13 @@ YTD Avg Sales = AVERAGEX(VALUES(CarSales[Dealer_Name]), [YTD Total Sales])
 Sales Growth % = DIVIDE(([YTD Total Sales] - [MTD Total Sales]), [MTD Total Sales])
 
 
----
-
-### 🚀 How to Use
+*** 🚀 How to Use
 1. Download the `.pbix` file from this repository.  
 2. Open it in **Power BI Desktop**.  
 3. Refresh the data connection if needed.  
 4. Interact with filters and visuals to explore insights.
 
-### 👨‍💻 Author
+*** 👨‍💻 Author
 **Ravi Dhakad**  
 📧 raviiidhakad@gmail.com  
 🔗 https://www.linkedin.com/in/ravi-dhakad-9b3353245/
