@@ -48,22 +48,32 @@ YTD Avg Sales = AVERAGEX(VALUES(CarSales[Dealer_Name]), [YTD Total Sales])
 
 -- Sales Growth %
 Sales Growth % = DIVIDE(([YTD Total Sales] - [MTD Total Sales]), [MTD Total Sales])
-
-
-*** 🚀 How to Use
-1. Download the `.pbix` file from this repository.  
-2. Open it in **Power BI Desktop**.  
-3. Refresh the data connection if needed.  
-4. Interact with filters and visuals to explore insights.
-
-*** 👨‍💻 Author
-**Ravi Dhakad**  
-📧 raviiidhakad@gmail.com  
-🔗 https://www.linkedin.com/in/ravi-dhakad-9b3353245/
-💻 [GitHub](https://github.com/raviiidhakad)
-
 ---
 
-### 🏁 Conclusion
+*** 🚀 How to Use
+
+Download the .pbix file from this repository.
+
+Open it in Power BI Desktop.
+
+Refresh the data connection if needed.
+
+Interact with filters and visuals to explore insights.
+
+*** 👨‍💻 Author
+Ravi Dhakad
+📧 raviiidhakad@gmail.com
+
+🔗 LinkedIn
+
+💻 GitHub
+
+🏁 Conclusion
+
 💡 This Power BI dashboard transforms raw car sales data into clear, actionable business insights, enabling data-driven decision-making.
 🚀 It showcases my ability to design, model, and visualize data effectively — turning analytics into impact.
+
+⭐ Acknowledgment
+
+If you found this project useful, please ⭐ the repository and share your feedback.
+It motivates me to keep creating insightful data projects!
